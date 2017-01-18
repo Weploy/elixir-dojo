@@ -10,11 +10,11 @@ use Mix.Config
 
 # You can configure for your application as:
 #
-#     config :elixirdojo, key: :value
+#     config :elixir_dojo, key: :value
 #
 # And access this configuration in your application as:
 #
-#     Application.get_env(:elixirdojo, :key)
+#     Application.get_env(:elixir_dojo, :key)
 #
 # Or configure a 3rd-party app:
 #

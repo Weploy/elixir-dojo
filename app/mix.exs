@@ -1,8 +1,8 @@
-defmodule Elixirdojo.Mixfile do
+defmodule ElixirDojo.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :elixirdojo,
+    [app: :elixir_dojo,
      version: "0.0.1",
      elixir: "~> 1.2",
      build_embedded: Mix.env == :prod,
