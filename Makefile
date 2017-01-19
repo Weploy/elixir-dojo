@@ -14,3 +14,6 @@ test: ## Run tests
 
 console: ## Open iex console
 	docker run -ti --rm -v $(PWD)/app:/app -w /app elixir:1.4 iex
+
+%:
+	@:
