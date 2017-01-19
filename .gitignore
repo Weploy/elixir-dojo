@@ -1,1 +1,5 @@
 app/_build
+app/cover
+app/deps
+app/erl_crash.dump
+app/*.ez
