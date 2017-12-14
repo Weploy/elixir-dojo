@@ -13,7 +13,7 @@ test: ## Run tests
 	docker run -ti --rm -v $(PWD)/app:/app -w /app elixir:1.4 mix test $(filter-out $@,$(MAKECMDGOALS))
 
 console: ## Open iex console
-	docker run -ti --rm -v $(PWD)/app:/app -w /app elixir:1.4 iex
+	docker run -ti --rm -v $(PWD)/app:/app -w /app elixir:1.4 iex -S mix
 
 %:
 	@:
